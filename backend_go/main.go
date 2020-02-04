@@ -1,29 +1,42 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	"log"
 	"net/http"
+	// "github.com/gorilla/mux"
 )
-
-// func handle(w http.ResponseWriter, r *http.Request) {
-// 	fmt.Fprint(w, "Привет")
-// }
-
-// func main() {
-// 	http.HandleFunc("/", handle)
-// 	log.Print("server starting")
-// 	http.ListenAndServe(":8080", nil)
-// }
-
+// рабочая версия
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request){
-		// r.Header.Add("Access-Control-Allow-Origin", "*")
-		r.Header.Get("Access-Control-Allow-Origin : *")
-		fmt.Fprint(w, "Привет")
 		log.Print(r)
-
+		log.Print(r.Body)
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Write([]byte("<h1>Hello World</h1>"))
 	})
 	log.Print("server starting")
 	http.ListenAndServe(":8080", nil)
 }
+
+
+// type Req struct{
+// 	Username string 'json:"username"'
+// 	Password string 'json:"password"'
+// }
+
+// func main(){
+// 	router := mux.NewRouter()
+// 	router.HandleFunc("/", makeRequest)
+// 	log.Print("server start")
+// 	log.Fatal(http.ListenAndServe(":8080", router))
+// }
+
+// func makeRequest(w http.ResponseWriter, r *http.Request){
+// 	// mux.Vars(r)
+// 	// log.Print(w)
+// 	log.Print(r.Body)
+// 	w.Header().Set("Access-Control-Allow-Origin", "*")
+// 	w.Write([]byte("hello world"))
+// 	// req := Req{}
+// 	// json.NewDecoder(r.Body).Decode(&req)
+// }

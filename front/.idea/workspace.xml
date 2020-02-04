@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d5775a2-09da-4026-9675-4bd2afd8bd1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../backend_go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_go/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-main" beforeDir="false" afterPath="$PROJECT_DIR$/new-main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-main/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-main/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-main/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/new-main/src/app/app.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/new-main" />
+  </component>
+  <component name="ProjectId" id="1XKRydp7qCu4qjDn70HV4slveaW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/new-main/node_modules/typescript/lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d5775a2-09da-4026-9675-4bd2afd8bd1b" name="Default Changelist" comment="" />
+      <created>1580793054305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580793054305</updated>
+      <workItem from="1580793055693" duration="3858000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="455" y="296" key="run.anything.popup" timestamp="1580795381475">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state x="455" y="296" key="run.anything.popup/59.27.1861.1053@59.27.1861.1053" timestamp="1580795381475" />
+  </component>
+</project>
